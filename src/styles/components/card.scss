@@ -1,0 +1,68 @@
+.card-quote{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 55px;
+    border-radius: 20px;
+    background-color: hsl(217, 19%, 24%);
+    width: 520px;
+}
+
+.quote{
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+
+.advice{
+    color: hsl(150, 100%, 66%);
+    margin-top: -20px;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    
+}
+.pattern-icon{
+    margin-bottom: 30px;
+}
+
+
+.button{
+    margin-bottom: -75px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    &:hover{
+        box-shadow: 1px 1px 20px 5px rgba(82,255,168,1);
+        
+    }
+}
+
+@media(max-width:375px){
+    .card-quote{
+        width: 350px;
+        
+    }
+
+    .pattern-icon{
+        max-width: 100%;
+    }
+}
+
+@media(min-width:376px) and (max-width:536px){
+    .card-quote{
+        width: 370px;
+        
+    }
+
+    .pattern-icon{
+        max-width: 100%;
+    }
+}
